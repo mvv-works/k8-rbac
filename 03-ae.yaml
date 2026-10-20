@@ -23,4 +23,4 @@ accessConfig:
       kubernetesGroups: # optional Kubernetes groups
         - devops-trainee # groups can used to give permissions via RBAC
   
-# eksctl create accessentry -f 03.ae.yaml
+# eksctl create accessentry -f 03-ae.yaml
