@@ -8,6 +8,7 @@ metadata:
     environment: dev
     purpose: poc
 spec: 
+  serviceAccountName: roboshop-secret-reader
   containers:
   - name: aws-cli #container name
     image: amazon/aws-cli #by default if will get from docker hub
